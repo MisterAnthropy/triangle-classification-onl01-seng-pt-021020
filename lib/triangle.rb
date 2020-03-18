@@ -1,7 +1,7 @@
 class Triangle
   attr_accessor :x, :y, :z 
   
-  def initialize()
+  def initialize
     @x = x 
     @y = y 
     @z = z 
@@ -9,7 +9,7 @@ class Triangle
   
   def kind 
     if @x == @y && @y == @z
-      :equilateral
+     return :equilateral
     end
   end
 end
