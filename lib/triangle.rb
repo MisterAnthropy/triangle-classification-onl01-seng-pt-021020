@@ -19,9 +19,11 @@ class Triangle
      :isosceles
     end
   end
+  
   class TriangleError < StandardError
     def error 
-      "This is not a valid triangle"
+      "This is not a valid triangle."
+    end
     
   end
 end
