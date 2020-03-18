@@ -1,15 +1,15 @@
 class Triangle
-  attr_accessor :x, :y, :z 
+  attr_accessor :s1, :s2, :s3 
   
   def initialize
-    @x = x 
-    @y = y 
-    @z = z 
+    @s1 = s1 
+    @s2 = s2
+    @s3 = s3 
   end
   
   def kind 
-    if @x == @y && @y == @z
-     return :equilateral
+    if @s1 == @s2 && @s2 == @s3
+     :equilateral
     end
   end
 end
